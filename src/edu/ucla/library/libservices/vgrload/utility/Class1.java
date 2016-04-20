@@ -131,9 +131,9 @@ public class Class1
     voyager = new DriverManagerDataSource();
 
     voyager.setDriverClassName( "oracle.jdbc.OracleDriver" );
-    voyager.setUrl( "jdbc:oracle:thin:@ils-db-prod.library.ucla.edu:1521:VGER" );
-    voyager.setUsername( "VGER_SUPPORT" );
-    voyager.setPassword( "VGER_SUPPORT_PWD" );
+    voyager.setUrl( "url" );
+    voyager.setUsername( "user" );
+    voyager.setPassword( "PWD" );
   }
 
   private static void initializeConnection()
